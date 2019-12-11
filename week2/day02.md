@@ -1,0 +1,11 @@
+### Feature Cross
+- 2개 이상의 Feature를 합쳐서 새로운 Feature를 만듬
+- 비선형 문제
+	- 하나의 선으로 구분할 수 없는 경우 
+- Feature Cross
+	- [ A x B ]
+	- [ A x B x C x D x E ]
+	- [ A x A ]
+- One Hot Vector Cross
+	- 원핫 벡터를 크로스해서 binned_latitude_x_longitude 등을 만듬
+	- [ 행동 유형 x 시간 ]
