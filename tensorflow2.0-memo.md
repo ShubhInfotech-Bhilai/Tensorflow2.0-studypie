@@ -515,4 +515,9 @@ for raw_record in raw_dataset.take(1):
 	```	
 	
 	
-	
+- Reproducible Performance 벤치마크는 여러 상황에 따라 달라짐
+	- 현재 CPU load, network traffic, 복잡한 메커니즘(예를 들면 캐시)
+	- tf.data.Dataset 클래스를 활용해 만들면 좋음
+
+- Data Performance 관련 [Colab](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/data_performance.ipynb)
+- TimeSeries 관련 [Colab](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/structured_data/time_series.ipynb#scrollTo=dt22wq6fyIBU)
